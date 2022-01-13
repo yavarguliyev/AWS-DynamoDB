@@ -1,0 +1,27 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "DynamDB AWS serverless app...",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yavarguliyev/DynamoDB.git"
+  },
+  "keywords": [],
+  "author": "Yavar Guliyev",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.18.0",
+    "@aws-sdk/util-dynamodb": "^3.18.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yavarguliyev/DynamoDB/issues"
+  },
+  "homepage": "https://github.com/yavarguliyev/DynamoDB#readme"
+}
